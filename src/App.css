@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+.container {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    place-items: center;
+    padding: 8px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+button {
+    display: block;
+    background: transparent;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 100%;
+    padding: 2px;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
