@@ -5,14 +5,19 @@
 }
 .container {
     display: block;
-    display: flex;
-    justify-content: space-between;
     width: 80%;
     margin: auto;
-    place-items: center;
     padding: 8px;
     background-color: lightgray;
     border-radius: 8px;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.show {
+    transition: all 0.5s;
 }
 button {
     display: block;

@@ -8,9 +8,11 @@ const App = () => {
     }
     return (
         <div className="container">
-            <p>Biodata</p>
-            <button onClick={Open}>↓</button>
-            {Open && <p>Lorem ipsum dolor sit amet</p>};
+            <div className="space-between">
+                <p>Biodata</p>
+                <button onClick={Open}>↓</button>
+            </div>
+            {openBio ? <p>Lorem ipsum dolor sit amet</p> : ""}
         </div>
     )
 }
