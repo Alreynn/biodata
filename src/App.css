@@ -3,28 +3,51 @@
     padding: 0;
     font-family: Sans-Serif;
 }
+header {
+    background-color: lightgray;
+    padding: 10px;
+}
 .container {
     display: block;
-    width: 80%;
-    margin: auto;
-    padding: 8px;
+    width: 90%;
+    margin: 24px auto;
+    padding: 12px;
     background-color: lightgray;
     border-radius: 8px;
+    transition: all 0.5s;
+}
+.container img {
+    width: 86px;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+.container p {
+    text-indent: 4em;
+    margin-top: 1em;
+}
+.flex {
+    margin-top: 1em;
+    display: flex;
+    gap: 10px;
+}
+.profileWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .space-between {
     display: flex;
     justify-content: space-between;
     place-items: center;
 }
-.show {
-    transition: all 0.5s;
-}
 button {
     display: block;
     background: transparent;
+    width: 1.5em;
     aspect-ratio: 1;
-    border: none;
     border-radius: 100%;
+    border: none;
     padding: 2px;
 }
 button:hover {
